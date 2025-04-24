@@ -23,6 +23,12 @@ const Welcomepage = () => {
         >
           Already Registered? Login
         </button>
+        <button
+          onClick={() => navigate("/signup")}
+          className="w-full bg-purple-600 text-white font-semibold py-3 mt-5 rounded-lg mb-3 hover:bg-purple-700"
+        >
+          Account Settings
+        </button>
       </div>
     </div>
   );
